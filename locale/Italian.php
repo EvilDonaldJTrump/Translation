@@ -25,7 +25,7 @@ class Italian extends Language
             "vote.notyet" => "§cNon hai ancora votato oggi. Vota a §bngmc.co/v§c, quindi torna ed ottieni il tuo rank.",
             "vote.claiming" => "§6Grazie per aver votato! Ottenendo il tuo rank...",
             "vote.claimed" => "§cHai già votato ed ottenuto il tuo rank oggi.",
-            "vote.announcement" => "§bha votato per noi a §cvote.nethergames.org §bpoi eseguito §6/vote §b e ha ricevuto un rank voter!",
+            "vote.announcement" => "§bha votato per noi a §cngmc.co/v §bpoi eseguito §6/vote §b e ha ricevuto un rank voter!",
             "vote.error" => "§cC’è stato un errore sconosciuto nel controllo del tuo stato di voto.",
             "vote.succesfull" => "§aRank ottenuto con successo. Grazie per aver votato su §eNether§6Games§a!",
             "skin.notvalid.rejoin" => "§cLa tua skin non è valida per giocare su §eNether§6Games§c.\nPer favore scegline un’altra e rientra.",

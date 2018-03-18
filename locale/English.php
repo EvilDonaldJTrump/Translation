@@ -25,7 +25,7 @@ class English extends Language
             "vote.notyet" => "§cYou haven't voted yet today. Vote at §bngmc.co/v§c, then come back and claim your rank.",
             "vote.claiming" => "§6Thanks for voting! Claiming your rank...",
             "vote.claimed" => "§cYou've already voted and claimed your rank today.",
-            "vote.announcement" => "§bvoted for us at §cvote.nethergames.org §bthen ran §6/vote §band got a voter rank!",
+            "vote.announcement" => "§bvoted for us at §cngmc.co/v §bthen ran §6/vote §band got a voter rank!",
             "vote.error" => "§cAn unknown error occurred while checking your vote status.",
             "vote.succesfull" => "§aSuccessfully claimed your rank. Thanks for voting for §eNether§6Games§a!",
             "skin.notvalid.rejoin" => "§cYour skin is not valid to play on §eNether§6Games§c.\nPlease choose another one and rejoin.",
