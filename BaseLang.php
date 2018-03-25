@@ -11,37 +11,42 @@ use pocketmine\Player;
 
 class BaseLang
 {
+    static function translateStringPlayer(Player $player, string $string, array $params = [])
+    {
+        return self::translateString(self::getPlayerLanguage($player), $string, $params);
+    }
 
-    static function translateString(Language $language, string $string): string
+    static function translateString(Language $language, string $string, array $params = []): string
     {
         if (isset($language->translations()[$string])) {
-            return $language->translations()[$string];
+            $text = $language->translations()[$string];
         } else {
             $defaultLanguage = new English();
             if (isset($defaultLanguage->translations()[$string])) {
-                return $defaultLanguage->translations()[$string];
+                $text = $defaultLanguage->translations()[$string];
             } else {
-                return "";
+                $text = "";
             }
         }
-    }
 
-    static function translateStringPlayer(Player $player, string  $string)
-    {
-        return self::translateString(self::getPlayerLanguage($player), $string);
+        foreach ($params as $i => $p) {
+            $text = str_replace("{%$i}", $p, $text);
+        }
+
+        return $text;
     }
 
     static function getPlayerLanguage(Player $player): Language
     {
         switch ($player->getLocale()) {
-            case "en_US":
-                return new English();
-                break;
             case "nl_NL":
                 return new Dutch();
                 break;
             case "it_IT":
                 return new Italian();
+                break;
+            default:
+                return new English();
                 break;
         }
     }
