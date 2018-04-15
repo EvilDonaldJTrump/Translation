@@ -7,6 +7,7 @@ use NetherGames\NGEssentials\lang\locale\Dutch;
 use NetherGames\NGEssentials\lang\locale\English;
 use NetherGames\NGEssentials\lang\locale\Italian;
 use NetherGames\NGEssentials\lang\locale\Language;
+use NetherGames\NGEssentials\lang\locale\Swedish;
 use pocketmine\Player;
 
 class BaseLang
@@ -44,6 +45,9 @@ class BaseLang
                 break;
             case "it_IT":
                 return new Italian();
+                break;
+            case "sv_SE":
+                return new Swedish();
                 break;
             default:
                 return new English();
