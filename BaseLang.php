@@ -26,7 +26,7 @@ class BaseLang
             if (isset($defaultLanguage->translations()[$string])) {
                 $text = $defaultLanguage->translations()[$string];
             } else {
-                $text = "";
+                $text = "§cError code 501: $string";
             }
         }
 

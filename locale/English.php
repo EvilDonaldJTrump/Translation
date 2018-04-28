@@ -106,8 +106,8 @@ class English extends Language
             "party.decline.host" => "§6has declined your party invite.",
             "party.decline.player" => "§6Declined the party invite from §b",
             "party.ended.host" => "§aEnded your party.",
-            "party.invite" => "§6has invited you to join their party! Use §c/party accept {%1} §6to accept the invitation.",
-            "party.invited" => "§aInvited §b{%1} §ato your party.",
+            "party.invite" => "§6has invited you to join their party! Use §c/party accept {%0} §6to accept the invitation.",
+            "party.invited" => "§aInvited §b{%0} §ato your party.",
             "party.join" => "§6joined the party.",
             "party.joingame" => "§cYou're currently in a party. Wait for your party host to decide which game to play!",
             "party.kicked" => "§cYou have been kicked from the party by §b",
@@ -118,7 +118,7 @@ class English extends Language
             "party.nothosting" => "§cYou're not hosting a party!",
             "party.notin" => "§cYou're not in a party!",
             "party.stillingame" => "§cis still in a match. Wait for them before you join another one!",
-            "party.welcome" => "§6Welcome to §b{%1}'s §6party!",
+            "party.welcome" => "§6Welcome to §b{%0}'s §6party!",
             "proxy.kick" => "§o§l§eN§6G§r§7: §cUsing a proxy to play on §eNether§6Games §cis not allowed. Disable it to play!",
             "server.full" => "§o§l§eN§6G§r§7: §cLooks like §eNether§6Games §cis full, try again later!\nBuy the §7[§aEmerald§7] §cor §7[§9Legend§7] §crank at §bngmc.co/store §cto join servers even if they're full!",
             "server.offline" => "§cThat server is currently full or offline. Please try again later.",
@@ -141,6 +141,25 @@ class English extends Language
             "world.noperm.db.error" => "§cBuilding is currently disabled due to a database error. Please try again later.",
             "world.vote" => "§cYou must vote to access Mega Creative.",
             "xp.summary" => "Experience Summary",
+
+
+            "formhandler.reporter.notreported" => "§cThat player can't be reported.",
+            "player.offline" => "§cThat player isn't online.",
+            "formhandler.reporter.reported" => "§6You reported §b{%0} §6for §c{%1}",
+            "formhandler.reporter.staffmessage" => "§b{%0} §6has been reported by {%1} for §c{%2}",
+            "formhandler.settings.hideplayers" => "§aYou are now §b{%0} §aplayers.",
+            "formhandler.settings.hideplayers.hiding" => "hiding",
+            "formhandler.settings.hideplayers.showing" => "showing",
+            "formhandler.settings.knockback" => "§a{%0} knockback in the lobby.",
+            "formhandler.settings.knockback.enabled" => "Enabled",
+            "formhandler.settings.knockback.disabled" => "Disabled",
+            "" => "",
+            "" => "",
+            "" => "",
+            "" => "",
+            "" => "",
+            "" => "",
+
         );
     }
 }
