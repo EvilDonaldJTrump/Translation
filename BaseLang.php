@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace NetherGames\NGEssentials\lang;
 
+use NetherGames\NGEssentials\lang\locale\Chinese;
 use NetherGames\NGEssentials\lang\locale\Dutch;
 use NetherGames\NGEssentials\lang\locale\English;
 use NetherGames\NGEssentials\lang\locale\Italian;
@@ -22,12 +23,7 @@ class BaseLang
         if (isset($language->translations()[$string])) {
             $text = $language->translations()[$string];
         } else {
-            $defaultLanguage = new English();
-            if (isset($defaultLanguage->translations()[$string])) {
-                $text = $defaultLanguage->translations()[$string];
-            } else {
-                $text = "§cError code 501: $string";
-            }
+            $text = "An unexpected error occurred while fetching a message - error code 501, language " . $language->getName() . " , string " . $string . ". Please report this to NetherGames Support - ngmc.co/s";
         }
 
         foreach ($params as $i => $p) {
@@ -49,6 +45,8 @@ class BaseLang
             case "sv_SE":
                 return new Swedish();
                 break;
+            case "zh_CN":
+                return new Chinese();
             default:
                 return new English();
                 break;

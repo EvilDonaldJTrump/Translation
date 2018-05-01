@@ -105,4 +105,9 @@ class Dutch extends Language
             "xp.summary" => "Experience Summary",
         );
     }
+
+    public function getName()
+    {
+        return "Dutch";
+    }
 }

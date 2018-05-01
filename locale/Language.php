@@ -15,4 +15,9 @@ abstract class Language
     {
         return array();
     }
+
+    public function getName()
+    {
+        return "UNKNOWN";
+    }
 }
