@@ -118,7 +118,6 @@ class Chinese extends Language
             "party.stillingame" => "§cis 仲在一个游戏。等下先再连接新游戏！",
             "party.welcome" => "§6欢迎去 §b{%1}个§6派对!",
             "proxy.kick" => "§o§l§eN§6G§r§7: §c请不要用服务机在 §eNether§6Games。 §c禁用服务机嚟玩！",
-            "server.full" => "§c这个服务器现在闷。 请等阵再试。",
             "server.full" => "§o§l§eN§6G§r§7: §c看去§eNether§6Games §c士满, 等阵再试！\n买过§7[§aEmerald§7] §c或§7[§9Legend§7] §c等级在§bngmc.co/store §c来利服务器满时连接！",
             "server.offline" => "§c这个服务器现在闷或离线。 请等阵再试。",
             "server.restart" => "§o§l§eN§6G§r§7: §eNether§6Games §b重新启动!",

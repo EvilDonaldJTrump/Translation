@@ -23,7 +23,15 @@ class BaseLang
         if (isset($language->translations()[$string])) {
             $text = $language->translations()[$string];
         } else {
-            $text = "An unexpected error occurred while fetching a message - error code 501, language " . $language->getName() . " , string " . $string . ". Please report this to NetherGames Support - ngmc.co/s";
+            $error = "An unexpected error occurred while fetching a message - error code 501, language " . $language->getName() . " , string " . $string . ". Please report this to NetherGames Support - ngmc.co/s";
+            echo $error;
+
+            $defaultLanguage = new English();
+            if (isset($defaultLanguage->translations()[$string])) {
+                $text = $defaultLanguage->translations()[$string];
+            } else {
+                $text = $error;
+            }
         }
 
         foreach ($params as $i => $p) {
