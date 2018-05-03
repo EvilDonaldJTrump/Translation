@@ -184,7 +184,7 @@ class Italian extends Language
             "party.join" => "§b{%0} §6è entrato nel party.",
             "party.joingame" => "§cSei in un party. Aspetta che il leader del party decida su quale mappa giocare!",
             "party.kicked" => "§cSei stato cacciato dal party da §b{%0}§c.",
-            "party.kicked.message" => "§b{%0} §6Cacciato §c{%1} §6dal party."
+            "party.kicked.message" => "§b{%0} §6Cacciato §c{%1} §6dal party.",
             "party.leave.player" => "§aSei uscito dal party.",
             "party.leave.players" => "§6è uscito dal party.",
             "party.max" => "§cNon puoi invitare più di §65 §cnel tuo party!",
