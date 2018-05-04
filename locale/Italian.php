@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: coene
- * Date: 17/03/2018
- * Time: 19:25
- */
 
 namespace NetherGames\NGEssentials\lang\locale;
 
