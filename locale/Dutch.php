@@ -95,7 +95,7 @@ class Dutch extends Language
             "world.noperm" => "§cJe hebt geen rechten om dit commando te gebruiken.",
             "world.noperm.db.error" => "§cBouwen is uitgeschakeld door een onverwachte fout. Probeer later opnieuw.",
             "world.vote" => "§cJe moet voten om naar Mega Creative te kunnen gaan.",
-            "xp.summary" => "Ervarings Overzicht",
+            "xp.summary" => "§6§lErvarings Overzicht : \n",
         );
     }
 
